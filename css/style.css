@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+
+/*******Navber Css*********/
+
+
+.top-header-area{
+	background: #000000;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 60%;
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu ul li{
+    margin-right: 20px;
+}
+.menu ul li a{
+	color: #FFFFFF;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+
+/**********Banner Css***********/
+
+.banner-area{
+	background: #FFC500;
+}
+.inner-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
+.content-area{
+	width: 45%;
+	padding: 150px 0;
+}
+.content-area h1{
+    font-size: 45px;
+    color: #FFFFF7;
+    margin-bottom: 20px;
+}
+.content-area p{
+   color: #FDFDFD;
+   margin-bottom: 40px;
+   font-size: 22px;
+   font-weight: normal;
+}
+.buttons a{
+    color: #FDFDFD;
+}
+.image-area{
+	width: 30%;
+	padding-top: 80px;
+}
+
+.buttons a:first-child{
+	background: #000000;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.buttons a:last-child{
+	padding: 13px 20px;
+	border-radius: 5px;
+	border:1px solid #FDFDFD;
+	margin-left: 20px;
+}
+
+
+/********Top Service Area*********/
+
+.service-area{
+	background: #FFFFFF;
+}
+.inner-service{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.service-content{
+   width: 45%;
+   padding: 150px 0;
+}
+.service-content h1{
+    font-size: 45px;
+    color: #2D3145;
+    margin-bottom: 20px;
+}
+.service-content p{
+   color: #2D3145;
+   margin-bottom: 40px;
+   font-size: 22px;
+   font-weight: normal;
+}
+.service-content a{
+   color: #FDFDFD;
+   background: #FFC500;
+   border-radius: 5px;
+   padding: 13px 20px;
+}
+.service-image{
+    width: 40%;
+    position: relative;
+}
+.service-image img{
+   width: 100%;
+   display: block;
+}
+.service-image::before{
+   content: '';
+   display: block;
+   background: #FFC500;
+   width: 250px;
+   height: 35px; 
+   position: absolute;
+   top: 100%;
+   left: 0;
+}
+.service-image::after{
+   content: '';
+   display: block;
+   background:  #FFC500;
+   width: 35px;
+   height: 250px; 
+   position: absolute;
+   bottom: -35px;
+   left: -35px; 
+}
+.last{
+    width: 40%;
+    position: relative;
+}
+.last::before{
+   content: '';
+   display: block;
+   background: #FFC500;
+   width: 250px;
+   height: 35px; 
+   position: absolute;
+   top: 100%;
+   right: 0;
+}
+.last::after{
+   content: '';
+   display: block;
+   background:  #FFC500;
+   width: 35px;
+   height: 250px; 
+   position: absolute;
+   bottom: -35px;
+   left: 100%; 
+}
+
+
+/*******Service Category Area Css*********/
+
+.service-category{
+   background: #FFC500;
+   padding: 60px 0;
+    color: #FFFFF7;
+}
+.title-area{
+   padding-bottom: 60px;
+   text-align: center;
+}
+.title-area h1{
+   font-size: 45px;
+   padding-bottom: 20px;
+}
+.title-area p{
+   width: 40%;
+   margin: 0 auto;
+   font-size: 22px;
+}
+
+.services{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.services h3{
+   padding-top: 30px;
+   padding-bottom: 20px;
+   font-size: 25px;
+}
+.services p{
+	font-size: 18px;
+}
+.services a{
+   border-radius: 20px;
+   background: #000000;
+   color: #FFFFF7;
+   padding: 10px 35px;
+   display: inline-block;
+  
+}
+.services h3 span{
+	text-decoration: line-through;
+  padding-right: 20px;
+}
+
+.veterinarian,
+.vaccin,
+.dental-care{
+    width: 30%;
+}
+
+/**********Footer Area***********/
+
+.footer-area{
+    background: #000000;
+    color: #fff;
+    padding: 20px 0px;
+}
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social-icons ul li{
+    margin-right: 15px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.social-icons ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
